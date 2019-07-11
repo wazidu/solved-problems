@@ -1,13 +1,14 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
 int main()
 {
-    long long int i,j,k,a,b;
-    cin>>a>>b;
-    if((a*b)%2)
-        cout<<"Odd"<<endl;
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+if(a==c){
+    printf("%d\n",(b*c)*b-(a+c)*b);
+    }
     else
-        cout<<"Even"<<endl;
-    return 0;
+        printf("%d",a*c-b*c);
 
+
+    return 0;
 }
